@@ -1,1 +1,1 @@
-![CheatSheet.jpeg](assets/CheatSheet.jpeg)
+![CheatSheet.jpeg](./assets/CheatSheet.jpeg)
