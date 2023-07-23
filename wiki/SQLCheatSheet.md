@@ -1,1 +1,1 @@
-![CheatSheet.jpeg](CheatSheet.jpeg)
+![](CheatSheet.jpeg)
