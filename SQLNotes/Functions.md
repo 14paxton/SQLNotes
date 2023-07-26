@@ -9,15 +9,29 @@ share:        true
 shortRepo:  
   - default  
   - sqlnotes    
-autoclean: true  
 ---  
+  
+<details markdown="block">        
+<summary>        
+Table of contents        
+</summary>        
+{: .text-delta }        
+1. TOC        
+{:toc}        
+</details>        
+  
+<br/>        
+  
+***        
+  
+<br/>        
   
 # MySQL  
   
 ## extract JSON  
   
-```sql  
+```sql    
 select JSON_EXTRACT(app_metadata, '$.tb5', '$.tb6.roleGroups') as "all",  
        JSON_EXTRACT(app_metadata, '$.tb5."roleGroups"')        as "tb5"  
-from user;  
+from user;    
 ```  
