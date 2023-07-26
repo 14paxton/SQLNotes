@@ -20,4 +20,4 @@ jobs:
           wiki_folder:     ${{ github.event.repository.name }}
           commit_message:  "wikisync"
           commit_username: "14paxton"
-          commit_email:    "14paxton@gmail.com"
+          commit_email:    "26972590+14paxton@users.noreply.github.com "
