@@ -15,9 +15,9 @@ jobs:
       - name: Wiki Sync
         uses: LillyWho/ghaction-wiki-sync-custom@v1.0
         with:
-          username: 14paxton
-          access_token: ${{ secrets.SYNCTOKEN }}
-          wiki_folder: ${{ github.event.repository.name }}
-          commit_message: "wikisync"
+          username:        14paxton
+          access_token:    ${{ secrets.SYNCTOKEN }}
+          wiki_folder:     ${{ github.event.repository.name }}
+          commit_message:  "wikisync"
           commit_username: "14paxton"
-          commit_email: "14paxton@gmail.com"
+          commit_email:    "14paxton@gmail.com"
